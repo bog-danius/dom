@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  font-family: "Golos";
+  box-sizing: border-box;
+}
+.firstslide {
+  background-image: url("./../img/background.jpg");
+}
+.header {
+  padding: 44px 52px 44px 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  height: 110px;
+}
+.logo {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+}
+.navigation {
+  display: flex;
+  gap: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+}
+.navigation-a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-decoration: none;
+  color: #ffffff;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  padding: 160px 0 206px 139px;
+}
+.description-p1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  text-shadow: -6px 62px 25px rgba(0, 0, 0, 0.01),
+    -3px 35px 21px rgba(0, 0, 0, 0.05), -1px 16px 16px rgba(0, 0, 0, 0.09),
+    0px 4px 9px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.description-h {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 113%;
+
+  color: #ffffff;
+}
+.description-p2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 113%;
+
+  color: #ffffff;
+
+  text-shadow: -6px 62px 25px rgba(0, 0, 0, 0.01),
+    -3px 35px 21px rgba(0, 0, 0, 0.05), -1px 16px 16px rgba(0, 0, 0, 0.09),
+    0px 4px 9px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.description-button {
+  width: 253.33px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 46px 0;
+
+  background: #25252c;
+  box-shadow: -6px 62px 25px rgba(0, 0, 0, 0.01),
+    -3px 35px 21px rgba(0, 0, 0, 0.05), -1px 16px 16px rgba(0, 0, 0, 0.09),
+    0px 4px 9px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 55px;
+}
+.description-button-p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 113%;
+
+  color: #ffffff;
+}
