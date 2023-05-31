@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 .firstslide {
+  width: 100%;
+  min-height: 750px;
   background-image: url("./../img/background.jpg");
 }
 .header {
@@ -96,4 +98,103 @@
   line-height: 113%;
 
   color: #ffffff;
+}
+.main {
+  display: flex;
+  background: linear-gradient(0deg, #1e262f, #1e262f), #181c1d;
+}
+
+.main-ecodom-p {
+  margin: 370px 37px 370px 83px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+
+  letter-spacing: 0.06em;
+
+  color: rgba(255, 255, 255, 0.1);
+
+  text-shadow: -6px 62px 25px rgba(0, 0, 0, 0.01),
+    -3px 35px 21px rgba(0, 0, 0, 0.05), -1px 16px 16px rgba(0, 0, 0, 0.09),
+    0px 4px 9px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  transform: rotate(-90deg);
+}
+.horizintal-line {
+  background: rgba(255, 255, 255, 0.1);
+}
+.info-ecodom {
+  padding: 342px 122px 343px 67px;
+}
+.info-ecodom-p1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 113%;
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.info-ecodom-p2 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 113%;
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+
+  opacity: 0.25;
+}
+.info-ecodom-p3 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 113%;
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+
+  opacity: 0.25;
+}
+.info-photo-ecodom {
+  display: flex;
+  padding: 174px 172px 44px 36px;
+  gap: 60px;
+}
+.name-ecodom {
+  font-family: "Oranienbaum";
+
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 113%;
+
+  color: rgba(255, 255, 255, 0.8);
+
+  text-shadow: -6px 62px 25px rgba(0, 0, 0, 0.01),
+    -3px 35px 21px rgba(0, 0, 0, 0.05), -1px 16px 16px rgba(0, 0, 0, 0.09),
+    0px 4px 9px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.video-ecodom {
+  border-radius: 12px;
+}
+.text-info {
+  margin: 10px 174px 298px 260px;
+}
+.text-info-ecodom1 {
+  margin-top: 16px;
+  font-family: "Inter";
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 114%;
+
+  letter-spacing: -0.02em;
+
+  color: rgba(255, 255, 255, 0.8);
+
+  text-shadow: -6px 62px 25px rgba(0, 0, 0, 0.01),
+    -3px 35px 21px rgba(0, 0, 0, 0.05), -1px 16px 16px rgba(0, 0, 0, 0.09),
+    0px 4px 9px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
