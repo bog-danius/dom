@@ -443,3 +443,16 @@
 .structure-img-info {
   border-radius: 24px;
 }
+.footer {
+  background: #1e242c;
+  color: #ffffff;
+}
+.footer-1 {
+  display: flex;
+  justify-content: center;
+}
+.footer-1-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
